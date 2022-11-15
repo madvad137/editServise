@@ -1,4 +1,4 @@
-import Intro from '../components/Intro/intro'
+import Intro from '../components/Intro/Intro'
 import RepairType from '../components/RepairType/RepairType'
 import SingUp from '../components/SingUp/SingUp'
 import Advantages from '../components/Advantages/Advantages'
