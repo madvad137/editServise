@@ -5,36 +5,8 @@ import SingUp from "../components/SingUp/SingUp";
 
 
 
-    // export async function getServerSideProps ({params}) {
-    //     let response = await fetch(`https://636e2e99b567eed48ad590cf.mockapi.io/data/${params.id}`);
-    //     const data = await response.json()
-    //     return{
-    //       props:{
-    //         post:data
-    //       }
-    //     }
-    //   }
-
-      export async function getStaticPaths () {
-        let response = await fetch(`https://636e2e99b567eed48ad590cf.mockapi.io/data`);
-        const data = await response.json();
-
-        const paths = data.map(({id}) => {
-            return(
-                {
-                    params: {id:id}
-                }
-            )
-        })
-        return{
-          paths,
-          fallback:false
-        }
-      }
-
-      export async function getStaticProps (context) {
-        const {id} = context.params
-        let response = await fetch(`https://636e2e99b567eed48ad590cf.mockapi.io/data/${id}`);
+    export async function getServerSideProps ({params}) {
+        let response = await fetch(`https://636e2e99b567eed48ad590cf.mockapi.io/data/${params.id}`);
         const data = await response.json()
         return{
           props:{
@@ -42,6 +14,8 @@ import SingUp from "../components/SingUp/SingUp";
           }
         }
       }
+
+
   
  const contact = ({post}) => {
 
