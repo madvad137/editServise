@@ -10,7 +10,7 @@ let Header = () => {
         <div className="container">
             <div className="header__inner">
                 <div className="header__logo">Edit Service</div>
-                <div className="header__burger" onClick={() => {setNavClassState(!navClassState)}}></div>
+                <div className="header__burger" onClick={() => {setNavClassState(!navClassState)}}><span></span> <span></span> <span></span></div>
                 <nav className={navClassState === true ? 'nav nav-active':'nav'}>
                     <ul className="nav__list">
                         <li className="nav__item" onClick={() => {setNavClassState(false)}}><Link className="nav__item-link" href={"/"}>главная</Link></li>
