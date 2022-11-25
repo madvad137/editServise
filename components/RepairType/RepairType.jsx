@@ -16,7 +16,7 @@ let RepairType = () => {
                 </Link>
                 <Link href={"/Remont-telefonov-i-planshetov"} className="repairType__item">
                     <div className="repairType__img">
-                        <Image width={150} height={150} src="/server.png" alt="Ремонт телефонов и планшетов"/>
+                        <Image width={150} height={150} src="/phone.png" alt="Ремонт телефонов и планшетов"/>
                     </div>
                     <h3 className="repairType__name">Ремонт телефонов и планшетов</h3>
                 </Link>
