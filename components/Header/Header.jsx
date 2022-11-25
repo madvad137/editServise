@@ -26,7 +26,7 @@ let Header = () => {
                         </li>
                         <li className="nav__item" onClick={() => {setNavClassState(false)}}><Link  href={"/singUp"} className="nav__item-link">записаться</Link></li>
                         <li className="nav__item" onClick={() => {setNavClassState(false)}}><Link  href={"/contacts"} className="nav__item-link" >контакты</Link></li>
-                        <li className="nav__item"><a href='tel: +79675551616' className="nav__item-link">+7 (967) 555-16-16</a></li>
+                        <li className="nav__item"><a href='tel:+79675551616' className="nav__item-link">+7 (967) 555-16-16</a></li>
                     </ul>
                 </nav>
             </div>
