@@ -8,9 +8,8 @@ module.exports = {
 }
 module.exports = (env, argv) => {
   return {   
-      devServer: {
-          
-          public: 'http://edit-service.ru',
+      devServer: {  
+          public: 'http://pcfixarmavir.ru',
       }
     }
   }
