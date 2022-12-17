@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 
 let Addres = () => {
     return(
@@ -13,19 +13,19 @@ let Addres = () => {
                     </div>
                     <div className="addres__info-item">
                         <div className="addres__info-img">
-                            <Image width={40} height={40} src="/svg.svg" alt="аддрес" />
+                            <img width={40} height={40} src="/svg.svg" alt="аддрес" />
                         </div>
                         <div className="addres__info-text">Г. Армавир Володарского 120 офис 209</div>
                     </div>
                     <div className="addres__info-item">
                         <div className="addres__info-img">
-                            <Image width={40} height={40} src="/svg.svg" alt="номер телефона" />
+                            <img width={40} height={40} src="/svg.svg" alt="номер телефона" />
                         </div>
                         <div className="addres__info-text">+7 (967) 555-16-16</div>
                     </div>
                     <div className="addres__info-item">
                         <div className="addres__info-img">
-                            <Image width={40} height={40} src="/svg.svg" alt="mail" />
+                            <img width={40} height={40} src="/svg.svg" alt="mail" />
                         </div>
                         <div className="addres__info-text">Editservicearmavir@gmail.com</div>
                     </div>

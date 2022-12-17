@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import Image from 'next/image'
+
 import Link from 'next/link';
 
 
@@ -21,7 +21,7 @@ let Intro = () => {
                                 <Link href={"/singUp"} className="intro__btn">Записаться</Link>
                             </div>
                                 <div className="intro__img">
-                                    <Image width={460} height={350} src="/intro1.jpg" alt="Ремонт техники в Армавире"/>
+                                    <img width={460} height={350} src="/intro1.jpg" alt="Ремонт техники в Армавире"/>
                                 </div>
                             </div>
                         </div>
@@ -35,7 +35,7 @@ let Intro = () => {
                                 <Link href={"/singUp"} className="intro__btn">Записаться</Link>
                             </div>
                                 <div className="intro__img">
-                                <Image width={460} height={350} src="/intro1.jpg" alt="Качество выполняемых работ"/>
+                                <img width={460} height={350} src="/intro1.jpg" alt="Качество выполняемых работ"/>
                                 </div>
                             </div>
                         </div>
@@ -49,7 +49,7 @@ let Intro = () => {
                                 <Link href={"/singUp"} className="intro__btn">Записаться</Link>
                             </div>
                                 <div className="intro__img">
-                                <Image width={460} height={350} src="/intro1.jpg" alt="Большой спектр услуг"/>
+                                <img width={460} height={350} src="/intro1.jpg" alt="Большой спектр услуг"/>
                                 </div>
                             </div>
                         </div>
