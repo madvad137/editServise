@@ -9,7 +9,7 @@ let Header = () => {
         <header className="header">
         <div className="container">
             <div className="header__inner">
-                <div className="header__logo">Edit Service</div>
+                <div className="header__logo">PcFix</div>
                 <div className="header__burger" onClick={() => {setNavClassState(!navClassState)}}><span></span> <span></span> <span></span></div>
                 <nav className={navClassState === true ? 'nav nav-active':'nav'}>
                     <ul className="nav__list">
